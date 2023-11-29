@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Rental System</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="h2">Rent-And-Ride</h1>
+        <div class="navbar">
+            <b><a href="home" style="text-decoration: none; color:black;">Home</a>&nbsp;&nbsp;</b>
+            <strong><a href="about_us" style="text-decoration: none; color:black;">About Us</a>&nbsp;&nbsp;</strong>
+            <strong><a href="Car" style="text-decoration: none; color:black;">Cars Catalogue</a>&nbsp;&nbsp;</strong>
+            <strong> <a href="file:///C:/Users/Hp/Desktop/car%20rental%20web%20design/contact_us.html"
+                    style="text-decoration: none; color:black;">Contact Us</a>&nbsp;&nbsp;</strong>
+
+
+            <button id="signin" type="submit" value="Sign In" class="btn">Sign In</button>
+            <button id="my_button" type="submit" value="Sign Up" class="btn">Sign up</button>
+
+        </div>
+
+    </header>
+
+    <div class="main">
+
+        <div class="mar">
+            <marquee>Need a ride?....Choose your comfort......</marquee>
+        </div>
+        <div class="info">
+            <h2> Best car rent service with </h2>
+            <h2> guaranteed comfort and quality. </h2>
+            <h3 id="hh">Book your ride now.</h3>
+        </div>
+
+        <div class="register">
+            <form>
+                <label>Pickup-location</label>
+                <select id="search">
+                    <option>Nashik</option>
+                    <option>Mumbai</option>
+                    <option>Navi mumbai</option>
+                    <option>Pune</option>
+                    <option>Gujrat</option>
+                    <option>Goa</option>
+
+                </select>
+                <label>Drop-location</label>
+                <select id="search">
+                    <option>Nashik</option>
+                    <option>Mumbai</option>
+                    <option>Navi mumbai</option>
+                    <option>Pune</option>
+                    <option>Gujrat</option>
+                    <option>Goa</option>
+
+                </select>
+                <label>Date-time</label>
+                <input type="datetime-local" id="search" name="datetime-local" placeholder="Date and time" required>
+                <label>Car type</label>
+                <select id="car">
+                    <option>MS Dezire</option>
+                    <option>MS Ertiga</option>
+                    <option>Toyota Innova</option>
+                    <option>Hyundai i10</option>
+                    <option>Mahindra Bolero</option>
+                    <option>Mahindra XUV7OO</option>
+                    <option>Mahindra Scorpio</option>
+                    <option>Honda civic</option>
+                    <option>TATA Tigor</option>
+                    <option>TATA Nexon</option>
+                </select>
+                <input type="submit" value="Book Now" class="btn">
+            </form>
+
+        </div>
+    </div>
+    <div class="image-container">
+        <div class="scrolling-container">
+
+            <img src="C:\Users\Hp\Desktop\car rental web design\Scorpio.jpg" alt="Mahindra Scorpio">
+            <img src="C:\Users\Hp\Desktop\car rental web design\Balero.jpg" alt="Mahindra Bolero">
+            <img src="C:\Users\Hp\Desktop\car rental web design\Nexon.jpg" alt="TATA Nexon">
+            <img src="C:\Users\Hp\Desktop\car rental web design\i10.png" alt="Hyundai i10">
+            <img src="C:\Users\Hp\Desktop\car rental web design\ertiga.webp" alt="Ertiga">
+            <img src="C:\Users\Hp\Desktop\car rental web design\innova.webp" alt="Innova">
+       
+        </div>
+    </div>
+    <div class="about_us">
+        <h3>About Us</h3><br>
+        <p><b> We are not an option, we are a choice</b><br>
+            We're <b>#1</b> choice of 10 Million people because we're the solution of India's inter-city commuting
+            problems.<br> With assured safety, we also provide economically priced rides.
+            Rent-And-Ride has come a long way ever since its inception in 2020. With a lot of hardwork and perseverance
+            we have made a place for ourselves in the market. As a brand and as a service, it is our constant endeavour
+            to redefine ourselves.</p>
+
+    </div><br>
+
+    <div class="car">
+        <h3>Car Catalogue</h3>
+        <p>We have a variety of cars. We are known for specializing in providing rental cars.</p>
+        <ol type="1">
+            <li> MS Dezire</li>
+            <li> MS Ertiga</li>
+            <li> Toyota Innova</li>
+            <li> Hyundai i10</li>
+            <li> Mahindra Bolero</li>
+            <li> Mahindra XUV700</li>
+            <li> Mahindra Scorpio</li>
+            <li> Honda Civic</li>
+            <li> TATA Tigor</li>
+            <li> TATA Nexon</li>
+        </ol>
+    </div><br>
+
+    <div class="contact">
+        <h3>Contact Us</h3><br>
+        <p>Contact us by phone: &#9742; +91 7499641243</p>
+        <p>Contact us by email: &#9993; <a href="rentandride@gmail.com">rentandride@gmail.com</a></p>
+
+    </div><br>
+
+    <footer>
+        <p>&copy; 2023 All rights reserved(Rupali Malunjkar)</p>
+    </footer>
+    <script>
+        document.getElementById("my_button").addEventListener("click", function () {
+            window.location.href = "file:///C:/Users/Hp/Desktop/car%20rental%20web%20design/Signup.html";
+        });
+        document.getElementById("signin").
+            addEventListener("click", function () {
+                window.location.href = "file:///C:/Users/Hp/Desktop/car%20rental%20web%20design/signin.html";
+            });
+    </script>
+
+</body>
+
+</html>

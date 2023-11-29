@@ -1,0 +1,201 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    margin:0.5px;
+    padding: 0;
+
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: rgb(167, 222, 248);
+    display: flex;
+    justify-content: space-between;
+    padding:  1rem 9%;
+}
+
+header #h2 {
+    justify-content: right;
+    color: darkred;
+
+}
+
+header .navbar {
+    justify-content: end;
+    text-align: right;
+    color: black;
+    font-size: 1.2rem;
+    margin-top: .1rem;
+}
+
+header .btn {
+    background-color: rgb(89, 89, 235);
+    color: black;
+    display: inline-block;
+    margin-top: .1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+marquee {
+    font-size: larger;
+    font-family: fantasy;
+    color: chocolate;
+    /* text-align: center; */
+    margin-top: 5%;
+
+}
+
+div .info {
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:right;
+    margin-right:70px ;
+    margin-top: 2%;
+    color: rgb(167, 222, 248);
+
+
+}
+
+div .info #hh {
+    color: rgb(167, 222, 248);
+    text-align: right;
+}
+div .contact_us{
+    background-color:rgb(167, 222, 248) ;
+display:inline-table;
+}
+
+body {
+
+    background-image: url('C:/Users/Hp/Desktop/car rental web design/bluecar.jpg');
+
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    /* background-color: floralwhite; */
+    
+
+
+}
+
+div .cont_btn .btn {
+    background-color: rgb(89, 89, 235);
+    color: black;
+    display: inline-block;
+    margin-top: 10%;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+div .register #search {
+    /* margin-top: 20%;
+    padding-top:10% ; */
+    text-align: center;
+
+
+}
+
+div .register {
+
+    margin-top: 18%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 3%;
+    margin-right: 20%;
+    text-align: initial;
+    background-color: rgb(167, 222, 248);
+
+}
+
+footer {
+    text-align: start;
+    margin-bottom: 0;
+    color: white;
+
+}
+
+div .register .btn {
+    background-color: rgb(89, 89, 235);
+    color: black;
+    display: inline-block;
+    /*    
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    cursor: pointer; */
+
+}
+.image-container img {
+    display: inline-block;
+    margin-top:0;
+    margin-bottom: 1px; 
+    width: 220px; 
+    height: 250px;
+  }
+  
+.scrolling-container {
+    white-space: nowrap;
+    font-size: 0; /* Remove the whitespace between inline-block elements */
+    animation: scroll 40s linear infinite; /* Adjust duration and timing function as needed */
+}
+
+/* .scrolling-container img {
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+} */
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%); /* Start with the first image */
+    }
+    100% {
+        transform: translateX(-100%); /* End with the last image */
+    }
+}
+
+.about_us {
+    background-color: rgb(167, 222, 248);
+
+}
+
+.about_us h3 {
+    color: black;
+    
+    border: groove;
+    text-align: center;
+}
+
+.about_us p {
+    color: black;
+}
+
+.car {
+    background-color: rgb(167, 222, 248);
+}
+
+.car h3 {
+    color: black;
+    border: groove;
+    text-align: center;
+}
+
+.car ul {
+    list-style-type: square;
+
+}
+
+.contact {
+    background-color: rgb(167, 222, 248);
+}
+
+.contact h3 {
+    color: black;
+    border: groove;
+    text-align: center;
+}
